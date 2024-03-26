@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Noto Sans';
+    
+}
+html,body{
+    height:100%;
+    width:100%;
+    background-color:grey;
+}
+#main{
+    height:100%;
+    width:100%;
+    background-color:white;
+
+}
+#nav{
+    height:100px;
+    width:100%;
+    
+    color:black;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    gap:20px;
+    padding:0 30px;
+}
+#nav h4{
+    font-size:20px;
+    font-weight:400;
+
+}
+#nav i{
+    background-color:black;
+    color:white;
+    font-size:20px;
+    padding:10px;
+    border-radius:50%;
+    font-weight:500;
+
+}
+#center
+{
+    width: 100%;
+    /*background-color:red;*/
+    padding: 40px 50px;
+}
+#center h1{
+    font-size:80px;
+    font-weight:500;
+    line-height:90px;
+}
+#center-in{
+    height:200px;
+    width:100%;
+    margin-top:50px;
+    display: flex;
+    justify-content: space-between;
+}
+#center-in p{
+    font-size:22px;
+   
+    line-height:32px;
+    padding-left:40px;
+}
+#right
+{
+    width: 20%;
+    padding-right:40px;
+    padding-top:0.5%;
+    
+}
+.elem
+{
+    padding: 20px 0;
+    display:flex;
+    border-top : 2px solid black ; 
+    align-items:center;
+    justify-content: space-between;
+}
+.elem i{
+    font-size:20px;
+    font-weight:500;
+    opacity: 0;
+}
+.elem a{
+    color:black;
+    text-decoration: none;
+    font-weight:400;
+    font-size:15px;
+    
+}
+.elem:hover i {
+ opacity: 1;
+}
+.elem:hover a
+{
+   text-decoration:underline; 
+}
+#bottom {
+    height:35%;
+    width: 100%;
+    background-color:rgba(57, 26, 13, 0.873);
+    background-image:url('https://media.istockphoto.com/id/1063674520/photo/young-pretty-fashioned-girl.jpg?s=2048x2048&w=is&k=20&c=NfwhMek1Z0j68Wu7GiLUC-X6kNhs2fBteKluI9l82HE=');
+    background-size: cover;
+    background-position: 0 32%
+
+}
